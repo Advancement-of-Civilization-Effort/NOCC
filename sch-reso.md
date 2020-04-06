@@ -2,8 +2,8 @@
 
 ## Status of our planet (Schumann Resonances)
 
-$Date: Mon Apr  6 11:38:03 CEST 2020 $<br>
-$GITid: f173d2f $ (previous)<br>
+$Date: Mon Apr  6 11:51:04 CEST 2020 $<br>
+$GITid: 114e59f $ (previous)<br>
 
 SPGRM:<br>
 ![IMG](https://nocc.heartmath.org/spectrogram/gci003/SPGRM_2020_03_29_ch2.jpg)
@@ -30,6 +30,6 @@ SPGRM:<br>
 ![IPH](http://sosrff.tsu.ru/new/iph.jpg)<br>
 
 --&nbsp;<br>
-this file: [schumann-reson.html](schumann-reson.html) (previous: [f173d2f](https://github.com/Advancement-of-Civilization-Effort/NOCC/blob/f173d2f/schumann-reson.html))
+this file: [schumann-reson.html](schumann-reson.html) (previous: [114e59f](https://github.com/Advancement-of-Civilization-Effort/NOCC/blob/114e59f/schumann-reson.html))
 (is also on IPNS: [QmYHfWp8NjSJ9gBEiDotXFvhbospMv8FLSwmAKGe5RnT9q](https://gateway.ipfs.io/ipns/QmQE42Qy1VD9AE6eYc2skE5xujsgJ3edbG2AiC1Y3eFDHv))
 

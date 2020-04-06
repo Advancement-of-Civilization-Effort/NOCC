@@ -1,5 +1,6 @@
 ---
-prev: f173d2f
+gitrepo: https://github.com/advancement-of-civilization-effort
+prev: 114e59f
 ---
 ## Schumann Resonance
 
@@ -10,9 +11,9 @@ A simple way on checking how humanity is doing wrt. earth !
 
 [more...](schumann-reson.html)
 
-url: {{site.url}}
+url: <{{site.url}}>
 
 
-Previous:  [{{page.prev}}](blob/{{page.prev}}/README.md)
+Previous:  [{{page.prev}}]({{gitrepo}}/blob/{{page.prev}}/README.md)
 
 
