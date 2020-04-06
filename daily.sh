@@ -14,8 +14,8 @@ cat > sch-reso.md <<EOF
 
 ## Status of our planet (Schumann Resonances)
 
-\$Date: $date \$
-\$GITid: $gitid \$ (previous)
+\$Date: $date \$<br>
+\$GITid: $gitid \$ (previous)<br>
 
 SPGRM:<br>
 $spgrm<br>
@@ -41,7 +41,8 @@ this file: [schumann-reson.html](schumann-reson.html) (previous: [$gitid]($repo/
 
 EOF
 pandoc -t html -f markdown -o sch-reso.htm sch-reso.md
-wget -P today -l 1 -r -np -N -nH -nd -E -H -k -K -p -e robots=off -F -i sch-reso.htm
+#wget -P today -l 1 -r -np -N -nH -nd -E -H -k -K -p -e robots=off -F -i sch-reso.htm
+wget -P today -np -N -nH -nd -E -H -k -K -p -e robots=off -F -i sch-reso.htm
 
 sed -e 's,http:.*/\([^/]*\.jpg\),today/\1,' sch-reso.md > schumann-reson.md
 pandoc -t html -f markdown -o schumann-reson.html schumann-reson.md
