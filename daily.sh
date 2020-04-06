@@ -4,6 +4,9 @@
 tic=$(date +%s)
 date=$(date)
 stamp=$(date +"%Y_%m_%d")
+gitid=$(git rev-parse --short HEAD)
+repo='https://github.com/Advancement-of-Civilization-Effort/NOCC'
+
 nocc='https://nocc.heartmath.org/spectrogram/gci003'
 spgrm=$(curl https://nocc.heartmath.org/spectrogram/gci003/ | grep \.jpg | tail -7 | sed -e 's,.*="\([^"]*\.jpg\)".*,![IMG]('$nocc'/\1),')
 cat > sch-reso.md <<EOF
@@ -12,6 +15,7 @@ cat > sch-reso.md <<EOF
 ## Status of our planet (Schumann Resonances)
 
 \$Date: $date \$
+\$GITid: $gitid \$ (previous)
 
 SPGRM:<br>
 $spgrm<br>
@@ -32,16 +36,18 @@ $spgrm<br>
 ![IPH](http://sosrff.tsu.ru/new/iph.jpg)<br>
 
 --&nbsp;<br>
-this file: [schumann-reson.html](schumann-reson.html)
+this file: [schumann-reson.html](schumann-reson.html) (previous: [$gitid]($repo/blob/$gitid/schumann-reson.html))
 (is also on IPNS: [QmYHfWp8NjSJ9gBEiDotXFvhbospMv8FLSwmAKGe5RnT9q](https://gateway.ipfs.io/ipns/QmQE42Qy1VD9AE6eYc2skE5xujsgJ3edbG2AiC1Y3eFDHv))
 
 EOF
 pandoc -t html -f markdown -o sch-reso.htm sch-reso.md
-wget -P today -l inf -r -np -N -nH -nd -E -H -k -K -p -e robots=off -F -i sch-reso.htm
+wget -P today -l 1 -r -np -N -nH -nd -E -H -k -K -p -e robots=off -F -i sch-reso.htm
 
 sed -e 's,http:.*/\([^/]*\.jpg\),today/\1,' sch-reso.md > schumann-reson.md
 pandoc -t html -f markdown -o schumann-reson.html schumann-reson.md
-qm=$(ipfs add -Q -w -r schumann-reson.* today daily.sh)
+echo $tic: $gitid >> gittrail.yml
+sed -i -e "s/^prev: .*/prev: $gitid/" README.md
+qm=$(ipfs add -Q -w -r schumann-reson.* today daily.sh gittrail.yml README.md)
 ipfs name publish --allow-offline --key=schumann /ipfs/$qm 1>/dev/null &
 echo $tic: $qm >> schumann-reson.yml
 echo url: https://ipfs.2read.net/ipfs/$qm
