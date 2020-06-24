@@ -1,6 +1,6 @@
 ---
 gitrepo: https://github.com/advancement-of-civilization-effort
-prev: fbe667c
+prev: 59759ee
 ---
 ## Schumann Resonance
 
