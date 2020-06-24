@@ -2,18 +2,12 @@
 
 ## Status of our planet (Schumann Resonances)
 
-$Date: Mon Apr  6 11:51:04 CEST 2020 $<br>
-$GITid: 114e59f $ (previous)<br>
+$Date: Wed Jun 24 12:09:12 CEST 2020 $<br>
+$GITid: 1fda3f8 $ (previous)<br>
 
 SPGRM:<br>
-![IMG](https://nocc.heartmath.org/spectrogram/gci003/SPGRM_2020_03_29_ch2.jpg)
-![IMG](https://nocc.heartmath.org/spectrogram/gci003/SPGRM_2020_03_30_ch2.jpg)
-![IMG](https://nocc.heartmath.org/spectrogram/gci003/SPGRM_2020_03_31_ch2.jpg)
-![IMG](https://nocc.heartmath.org/spectrogram/gci003/SPGRM_2020_04_01_ch2.jpg)
-![IMG](https://nocc.heartmath.org/spectrogram/gci003/SPGRM_2020_04_02_ch2.jpg)
-![IMG](https://nocc.heartmath.org/spectrogram/gci003/SPGRM_2020_04_03_ch2.jpg)
-![IMG](https://nocc.heartmath.org/spectrogram/gci003/SPGRM_2020_04_04_ch2.jpg)<br>
-![SPGRM 2020_04_06](https://nocc.heartmath.org/spectrogram/gci003/SPGRM_2020_04_06_ch2.jpg)<br>
+<br>
+![SPGRM 2020_06_24](https://nocc.heartmath.org/spectrogram/gci003/SPGRM_2020_06_24_ch2.jpg)<br>
 
 ![SRF](today/srf.jpg)<br>
 ![SRA](today/sra.jpg)<br>
@@ -30,6 +24,6 @@ SPGRM:<br>
 ![IPH](today/iph.jpg)<br>
 
 --&nbsp;<br>
-this file: [schumann-reson.html](schumann-reson.html) (previous: [114e59f](https://github.com/Advancement-of-Civilization-Effort/NOCC/blob/114e59f/schumann-reson.html))
+this file: [schumann-reson.html](schumann-reson.html) (previous: [1fda3f8](https://github.com/Advancement-of-Civilization-Effort/NOCC/blob/1fda3f8/schumann-reson.html))
 (is also on IPNS: [QmYHfWp8NjSJ9gBEiDotXFvhbospMv8FLSwmAKGe5RnT9q](https://gateway.ipfs.io/ipns/QmQE42Qy1VD9AE6eYc2skE5xujsgJ3edbG2AiC1Y3eFDHv))
 
