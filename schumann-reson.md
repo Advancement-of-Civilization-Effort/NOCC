@@ -2,8 +2,8 @@
 
 ## Status of our planet (Schumann Resonances)
 
-$Date: Wed Jun 24 12:38:00 CEST 2020 $<br>
-$GITid: 59759ee $ (previous)<br>
+$Date: Wed Jun 24 12:38:51 CEST 2020 $<br>
+$GITid: c435af6 $ (previous)<br>
 
 SPGRM:<br>
 <br>
@@ -24,6 +24,6 @@ SPGRM:<br>
 ![IPH](http://sosrff.tsu.ru/new/iph.jpg)<br>
 
 --&nbsp;<br>
-this file: [schumann-reson.html](schumann-reson.html) (previous: [59759ee](https://github.com/Advancement-of-Civilization-Effort/NOCC/blob/59759ee/schumann-reson.html))
+this file: [schumann-reson.html](schumann-reson.html) (previous: [c435af6](https://github.com/Advancement-of-Civilization-Effort/NOCC/blob/c435af6/schumann-reson.html))
 (is also on IPNS: [QmZF7cQUZp7vWDSUYGTAu9DvQ4rU8qK9qZ5pjPrgg5tVVM](https://gateway.ipfs.io/ipns/QmZF7cQUZp7vWDSUYGTAu9DvQ4rU8qK9qZ5pjPrgg5tVVM))
 

@@ -47,7 +47,7 @@ this file: [schumann-reson.html](schumann-reson.html) (previous: [$gitid]($repo/
 EOF
 pandoc -t html -f markdown -o sch-reso.htm sch-reso.md
 #wget -P today -l 1 -r -np -N -nH -nd -E -H -k -K -p -e robots=off -F -i sch-reso.htm
-exclude="--exclude-domains "
+exclude="--exclude-domains https://github.com"
 wget -P today -np -N -nH -nd -E -H -k -K -p -e robots=off -F -i sch-reso.htm
 
 sed -e 's,https?:.*/\([^/]*\.jpg\),today/\1,' sch-reso.md > schumann-reson.md
